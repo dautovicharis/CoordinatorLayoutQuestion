@@ -4,9 +4,7 @@ import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import pavelpoley.myapplication.ui.home.HomeFragment
+import pavelpoley.myapplication.ui.tabs.TabsFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager
                 .beginTransaction()
-                .replace(R.id.container, HomeFragment(), null)
+                .replace(R.id.container, TabsFragment(), null)
                 .commit()
     }
 
