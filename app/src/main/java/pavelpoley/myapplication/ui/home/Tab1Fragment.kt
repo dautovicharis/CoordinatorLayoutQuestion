@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import pavelpoley.myapplication.R
 
-class HomeFragment : Fragment() {
+class Tab1Fragment : Fragment() {
 
 
     override fun onCreateView(

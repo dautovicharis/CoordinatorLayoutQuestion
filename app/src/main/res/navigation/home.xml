@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment android:id="@+id/fragmentHome" android:name="pavelpoley.myapplication.ui.home.Tab1Fragment"/>
+
+    <fragment android:id="@+id/fragmentTab1" android:name="pavelpoley.myapplication.ui.home.Tab2Fragment"/>
+
+    <fragment android:id="@+id/fragmentTab2" android:name="pavelpoley.myapplication.ui.home.Tab3Fragment"/>
+
+</navigation>
